@@ -3,6 +3,7 @@ package boargame;
 public class Position {
 	private int row;
 	private int colum;
+	
 	public Position(int row, int colum) {
 		this.row = row;
 		this.colum = colum;
@@ -18,6 +19,10 @@ public class Position {
 		return colum;
 	}
 	public void setColum(int colum) {
+		this.colum = colum;
+	}
+	public void setValues(int row, int column) {
+		this.row = row;
 		this.colum = colum;
 	}
 	
